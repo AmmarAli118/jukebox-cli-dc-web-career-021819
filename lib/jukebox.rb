@@ -52,6 +52,11 @@ def run
   if users_input != "exit"
     case test
     when users_input == "list"
+      list
+    when users_input == "play"
+      play
+    when users_input == "help"
+      help
       
   else 
     exit_jukebox
