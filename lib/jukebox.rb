@@ -50,7 +50,7 @@ def run
   users_input = gets.chomp 
   
   if users_input != "exit"
-    case test
+    case users_input
     when users_input == "list"
       list
     when users_input == "play"
