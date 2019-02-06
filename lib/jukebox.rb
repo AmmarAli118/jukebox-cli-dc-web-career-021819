@@ -48,18 +48,17 @@ def run
   help()
   puts "Please enter a command:"
   users_input = gets.chomp 
-  
-  if users_input != "exit"
-    case users_input
-    when users_input == "list"
-      list
-    when users_input == "play"
-      play
-    when users_input == "help"
-      help
-    end 
-  else 
+
+  case users_input
+  when "list"
+    list
+  when "play"
+    play
+  when "help"
+    help
+  else
     exit_jukebox
   end 
+
 end 
 
