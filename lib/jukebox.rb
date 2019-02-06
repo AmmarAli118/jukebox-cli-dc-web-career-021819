@@ -57,7 +57,7 @@ def run
       play
     when users_input == "help"
       help
-      
+    end 
   else 
     exit_jukebox
   end 
