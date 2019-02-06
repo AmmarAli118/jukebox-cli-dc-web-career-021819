@@ -27,7 +27,7 @@ def play (songs)
     if users_response == song || users_response == (index+1)
       puts "Playing #{song}"
     else 
-      puts "Invalid inputs, please try again."
+      puts "Invalid input, please try again"
     end
       
   end
