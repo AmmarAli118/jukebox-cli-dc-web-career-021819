@@ -50,7 +50,9 @@ def run
   users_input = gets.chomp 
   
   if users_input != "exit"
-    
+    case test
+    when users_input == "list"
+      
   else 
     exit_jukebox
   end 
